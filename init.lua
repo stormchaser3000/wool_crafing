@@ -25,3 +25,9 @@ minetest.register_craft({
 		{'default:bronze_ingot', 'default:bronze_ingot'}
 	}
 })
+
+minetest.register_node(wool_crafting:deco_block_1, {
+	tiles = {wool_crafting_deco_block_1.png},
+	groups = {cracky=1,flamable=6,oddly_breakable_by_hand=1},
+
+})
